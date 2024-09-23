@@ -4,9 +4,4 @@ echo "<br>";
 echo "php rocks";
 echo "<br>";
 //echo phpinfo();
-// List all environment variables
-$env_vars = [];
-getenv($env_vars);
-foreach ($env_vars as $key => $value) {
-    echo "$key => $value\n";
-}
+phpinfo(INFO_ENVIRONMENT);
