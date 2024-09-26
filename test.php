@@ -6,7 +6,10 @@ echo "php rocks";
 echo "<br>";
 //echo phpinfo();
 #phpinfo(INFO_ENVIRONMENT);
-for ($i = 1; $i <= 10; $i++) {
+for ($i = 1; $i <= 20; $i++) {
+    echo "<p style=\"font-size:".$i."px\">testing</p><br>";
+}
+for ($i = 20; $i >= 0; $i--) {
     echo "<p style=\"font-size:".$i."px\">testing</p><br>";
 }
 echo "</body></html>";
