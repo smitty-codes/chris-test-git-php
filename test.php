@@ -1,9 +1,5 @@
 <?php
-echo "<!DOCTYPE html><html><body>";
-echo "adding a line of code so it can be stashed";
-echo "<br>";
-echo "php rocks";
-echo "<br>";
+echo "<!DOCTYPE html><html lang='en'><body style='background-color:red;'>'>";
 //echo phpinfo();
 #phpinfo(INFO_ENVIRONMENT);
 for ($i = 1; $i <= 20; $i++) {
