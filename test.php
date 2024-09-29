@@ -1,5 +1,5 @@
 <?php
-echo "<!DOCTYPE html><html lang=\"en\"><body>";
+echo "<!DOCTYPE html><html lang='fr'><body style='background-color:red;'>'>";
 //echo phpinfo();
 #phpinfo(INFO_ENVIRONMENT);
 for ($i = 1; $i <= 20; $i++) {
